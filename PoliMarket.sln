@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{06E1E920-199B-4488-83EA-026863974FBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{489E0366-023A-4FA8-A57F-8ABFFD7586BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{BD1EC8B5-68D5-4D5F-AFCF-DB907B8BF418}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{67267F70-1538-4AAA-9BDA-442601E71188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliMarket.Application", "PoliMarket.Application\PoliMarket.Application.csproj", "{20638B12-CA0E-4685-B477-BB8FDB917EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliMarket.Domain", "PoliMarket.Domain\PoliMarket.Domain.csproj", "{0D459C9D-8799-40D8-A28C-9B50272D4FD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliMarket.Api", "PoliMarket.Api\PoliMarket.Api.csproj", "{834DB922-A8B3-438F-9A25-BEE66EC0D63D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliMarket.Infrastructure", "PoliMarket.Infrastructure\PoliMarket.Infrastructure.csproj", "{28DB84D4-0E25-4AAD-985D-5A056F71AB34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20638B12-CA0E-4685-B477-BB8FDB917EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20638B12-CA0E-4685-B477-BB8FDB917EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20638B12-CA0E-4685-B477-BB8FDB917EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20638B12-CA0E-4685-B477-BB8FDB917EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D459C9D-8799-40D8-A28C-9B50272D4FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D459C9D-8799-40D8-A28C-9B50272D4FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D459C9D-8799-40D8-A28C-9B50272D4FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D459C9D-8799-40D8-A28C-9B50272D4FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{834DB922-A8B3-438F-9A25-BEE66EC0D63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834DB922-A8B3-438F-9A25-BEE66EC0D63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834DB922-A8B3-438F-9A25-BEE66EC0D63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834DB922-A8B3-438F-9A25-BEE66EC0D63D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28DB84D4-0E25-4AAD-985D-5A056F71AB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DB84D4-0E25-4AAD-985D-5A056F71AB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DB84D4-0E25-4AAD-985D-5A056F71AB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DB84D4-0E25-4AAD-985D-5A056F71AB34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD1EC8B5-68D5-4D5F-AFCF-DB907B8BF418} = {06E1E920-199B-4488-83EA-026863974FBF}
+		{67267F70-1538-4AAA-9BDA-442601E71188} = {06E1E920-199B-4488-83EA-026863974FBF}
+		{20638B12-CA0E-4685-B477-BB8FDB917EDF} = {BD1EC8B5-68D5-4D5F-AFCF-DB907B8BF418}
+		{0D459C9D-8799-40D8-A28C-9B50272D4FD2} = {67267F70-1538-4AAA-9BDA-442601E71188}
+		{834DB922-A8B3-438F-9A25-BEE66EC0D63D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{28DB84D4-0E25-4AAD-985D-5A056F71AB34} = {489E0366-023A-4FA8-A57F-8ABFFD7586BF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55917404-D009-4BD9-B11C-82107506C659}
+	EndGlobalSection
+EndGlobal
