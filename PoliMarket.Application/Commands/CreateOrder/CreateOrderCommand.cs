@@ -2,7 +2,7 @@
 
 namespace PoliMarket.Application.Commands.CreateOrder;
 
-public class CreateOrderCommand : IRequest<int>
+public class CreateOrderCommand : IRequest<string>
 {
     public int CustomerId { get; set; }
     public int ProductId { get; set; }

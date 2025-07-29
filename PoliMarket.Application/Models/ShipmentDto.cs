@@ -2,7 +2,7 @@
 
 public class ShipmentDto
 {
-    public int InvoiceId { get; set; }
+    public string? InvoiceId { get; set; }
     public string? ReceiverName { get; set; }
     public string? ReceiverPhone { get; set; }
     public string? ShippingAddress { get; set; }

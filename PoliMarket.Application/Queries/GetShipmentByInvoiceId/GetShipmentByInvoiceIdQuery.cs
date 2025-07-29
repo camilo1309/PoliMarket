@@ -5,5 +5,5 @@ namespace PoliMarket.Application.Queries.GetShipmentByInvoiceId;
 
 public class GetShipmentByInvoiceIdQuery : IRequest<ShipmentDto>
 {
-    public int InvoiceId { get; set; }
+    public string? InvoiceId { get; set; }
 }

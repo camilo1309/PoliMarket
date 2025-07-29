@@ -5,7 +5,7 @@ namespace PoliMarket.Application.Commands.CreateShipment;
 
 public class CreateShipmentCommand : IRequest<ShipmentDto>
 {
-    public int InvoiceId { get; set; }
+    public string? InvoiceId { get; set; }
     public string? ReceiverName { get; set; }
     public string? ReceiverPhone { get; set; }
     public string? ShippingAddress { get; set; }

@@ -14,8 +14,8 @@ namespace PoliMarket.Api.Controllers
             return CreatedAtAction(nameof(GetByInvoice), new { invoiceId = dto.InvoiceId }, dto);
         }
 
-        [HttpGet("{invoiceId:int}")]
-        public async Task<IActionResult> GetByInvoice(int invoiceId)
+        [HttpGet("{invoiceId}")]
+        public async Task<IActionResult> GetByInvoice(string invoiceId)
         {
             var dto = await Mediator.Send(new GetShipmentByInvoiceIdQuery { InvoiceId = invoiceId });
             if (dto == null) return NotFound();

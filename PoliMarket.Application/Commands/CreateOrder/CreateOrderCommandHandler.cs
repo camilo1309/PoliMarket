@@ -6,9 +6,9 @@ using PoliMarket.Infrastructure.Data;
 
 namespace PoliMarket.Application.Commands.CreateOrder;
 
-public class CreateOrderCommandHandler(Context context, IMediator mediator) : IRequestHandler<CreateOrderCommand, int>
+public class CreateOrderCommandHandler(Context context, IMediator mediator) : IRequestHandler<CreateOrderCommand, string>
 {
-    public async Task<int> Handle(CreateOrderCommand request, CancellationToken cancellationToken)
+    public async Task<string> Handle(CreateOrderCommand request, CancellationToken cancellationToken)
     {
         var customer = await context.Customers
             .FirstOrDefaultAsync(c => c.CustomerId == request.CustomerId, cancellationToken);
