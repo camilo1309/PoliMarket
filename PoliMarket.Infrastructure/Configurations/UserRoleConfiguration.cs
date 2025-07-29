@@ -10,7 +10,7 @@ public class UserRoleConfiguration : IEntityTypeConfiguration<UserRole>
     {
         builder.ToTable("UsuarioRol");
 
-        builder.HasKey(s => s.UserId);
+        builder.HasKey(pp => new { pp.UserId, pp.RoleId });
         builder.Property(e => e.UserId).HasColumnName("codUsuario");
         builder.Property(e => e.RoleId).HasColumnName("codRol");
     }
